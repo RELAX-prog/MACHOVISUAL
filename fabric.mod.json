@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "machovisual",
+  "version": "${version}",
+  "name": "MachoVisual",
+  "description": "Crosshair, Auto Totem, Full Bright, Free Look, Aspect Ratio, Jump Circle, HUD",
+  "environment": "client",
+  "entrypoints": { "client": ["com.machovisual.MachoVisualClient"] },
+  "mixins": ["machovisual.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
